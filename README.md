@@ -2,7 +2,7 @@
 
 ### 👋 Hi there, I am Magic Squash. 
 - A tech-loving student
-- 个人博客：https://github.com/stuPETER12138/stuPETER12138.github.io.git
+- My blog: [Magic Squash](https://stupeter12138.github.io/)
 
 
 <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stuPETER12138&layout=compact" />

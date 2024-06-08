@@ -15,10 +15,12 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=stuPETER12138&show_icons=true&theme=buefy)]
-
+<a>
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=stuPETER12138&show_icons=true&theme=buefy" />
+</a>
 <a href="https://github.com/stuPETER12138/stuPETER12138.github.io.git">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=stuPETER12138&repo=stuPETER12138.github.io" />
 </a>
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=stuPETER12138)]
+<a>
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stuPETER12138" />
+</a>

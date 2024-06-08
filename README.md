@@ -1,4 +1,5 @@
-## Hi there 👋
+## Hi there, I am Magic Squash. 👋
+- A tech-loving student 
 
 <!--
 **stuPETER12138/stuPETER12138** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

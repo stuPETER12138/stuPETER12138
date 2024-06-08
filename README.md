@@ -1,5 +1,11 @@
-## 👋 Hi there, I am Magic Squash. 
-- A tech-loving student 
+<img align="right" src="https://github-readme-stats.vercel.app/api?username=stuPETER12138&show_icons=true&theme=buefy" />
+
+### 👋 Hi there, I am Magic Squash. 
+- A tech-loving student
+- 个人博客：https://github.com/stuPETER12138/stuPETER12138.github.io.git
+
+
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stuPETER12138&layout=compact" />
 
 <!--
 **stuPETER12138/stuPETER12138** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -15,13 +21,3 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
-<a>
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=stuPETER12138&show_icons=true&theme=buefy" />
-</a>
-<a href="https://github.com/stuPETER12138/stuPETER12138.github.io.git">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=stuPETER12138&repo=stuPETER12138.github.io" />
-</a>
-<a>
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stuPETER12138" />
-</a>

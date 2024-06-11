@@ -2,9 +2,9 @@
 - A tech-loving student
 - My blog: [Magic Squash](https://stupeter12138.github.io/)
 
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=stuPETER12138&theme=buefy&show_icons=true" />
+<img align="left" src="https://github-readme-stats.vercel.app/api?username=stuPETER12138&theme=buefy&show_icons=true" />
 
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stuPETER12138&layout=compact" />
+<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stuPETER12138&layout=compact" />
 
 <!--
 **stuPETER12138/stuPETER12138** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

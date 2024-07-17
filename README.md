@@ -1,5 +1,6 @@
 ### 👋 Hi there, I am Magic Squash. 
 - A tech-loving student
+- Caught by coding
 - My blog: [Magic Squash](https://stupeter12138.github.io/)
 
 <img align="left" src="https://github-readme-stats.vercel.app/api?username=stuPETER12138&theme=buefy&show_icons=true" />

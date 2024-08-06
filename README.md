@@ -1,13 +1,12 @@
-### 👋 Hi there, I am Magic Squash. 
-- A tech-loving student
-- Caught by coding
-- My blog: [Magic Squash](https://stupeter12138.github.io/)
+<h1 align='center'> 👋 Hi there, I am Magic Squash </h1>
 
-<img align="left" src="https://github-readme-stats.vercel.app/api?username=stuPETER12138&theme=buefy&show_icons=true" />
-
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stuPETER12138&hide=shell,makefile,cmake,powershell&layout=compact" />
+<!-- Is my profile that important? -->
 
 <!--
+<img align="left" src="https://github-readme-stats.vercel.app/api?username=stuPETER12138&theme=material-palenight&show_icons=true&rank_icon=github" />
+
+<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stuPETER12138&hide=shell,makefile,cmake,powershell,lua&layout=compact&hide_progress=true" />
+
 **stuPETER12138/stuPETER12138** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:

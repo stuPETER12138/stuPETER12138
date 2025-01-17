@@ -1,4 +1,4 @@
-<h1 align='center'> 👋 你好，请叫我魔法窝瓜 </h1>
+<h1 align='center'> 👋 Hi there, my name is Magic Squash! </h1>
 
 <!-- Is my profile that important? -->
 

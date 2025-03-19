@@ -56,5 +56,6 @@ jobs:
           plugin_screenshot_mode: image
           plugin_screenshot_selector: body
           plugin_screenshot_url: https://stupeter12138.github.io/
-          plugin_screenshot_viewport: 1280x800
+          plugin_screenshot_wait: 1000
+          plugin_screenshot_viewport: 1440x900
           

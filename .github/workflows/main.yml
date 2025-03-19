@@ -39,6 +39,17 @@ jobs:
           plugin_introduction_title: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
+          plugin_topics: yes
+          plugin_topics_limit: 15
+          plugin_topics_mode: icons
+          plugin_topics_sort: stars
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: screenshot.svg
+          token: NOT_NEEDED
+          base: ""
+          config_display: columns
+          config_timezone: Asia/Shanghai
           plugin_screenshot: yes
           plugin_screenshot_title: My Magical Site
           plugin_screenshot_background: no
@@ -46,9 +57,5 @@ jobs:
           plugin_screenshot_selector: body
           plugin_screenshot_url: https://stupeter12138.github.io/
           plugin_screenshot_wait: 5000
-          plugin_screenshot_viewport: 2560x1516
-          plugin_topics: yes
-          plugin_topics_limit: 15
-          plugin_topics_mode: icons
-          plugin_topics_sort: stars
+          plugin_screenshot_viewport: 2560x1500
           

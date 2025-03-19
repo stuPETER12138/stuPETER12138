@@ -1,24 +1,5 @@
 <h1 align='center'> 👋 Hi there, my name is Magic Squash! </h1>
 
-<!-- Is my profile that important? -->
-
-<!--
-<img align="left" src="https://github-readme-stats.vercel.app/api?username=stuPETER12138&theme=material-palenight&show_icons=true&rank_icon=github" />
-
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stuPETER12138&hide=shell,makefile,cmake,powershell,lua&layout=compact&hide_progress=true" />
-
-**stuPETER12138/stuPETER12138** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
-![](./profile-3d-contrib/profile-green-animate.svg)
+<picture>
+  <img src="/github-metrics.svg" alt="Metrics">
+</picture>

@@ -43,12 +43,4 @@ jobs:
           plugin_topics_limit: 15
           plugin_topics_mode: icons
           plugin_topics_sort: stars
-          plugin_screenshot: yes
-          plugin_screenshot_title: My Magical Site
-          plugin_screenshot_background: no
-          plugin_screenshot_mode: image
-          plugin_screenshot_selector: body
-          plugin_screenshot_url: https://stupeter12138.github.io/
-          plugin_screenshot_wait: 50000
-          plugin_screenshot_viewport: 2560x1500
           

@@ -20,7 +20,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           template: classic
           base: header, activity, community, repositories, metadata
-          config_display: large
+          config_display: columns
           config_timezone: Asia/Shanghai
           plugin_activity: yes
           plugin_activity_days: 14
@@ -39,17 +39,6 @@ jobs:
           plugin_introduction_title: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-          plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_analysis_timeout_repositories: 7.5
-          plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
-          plugin_languages_limit: 6
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
-          plugin_languages_sections: most-used
-          plugin_languages_threshold: 0%
           plugin_screenshot: yes
           plugin_screenshot_title: My Magical Site
           plugin_screenshot_background: yes
@@ -57,5 +46,9 @@ jobs:
           plugin_screenshot_selector: body
           plugin_screenshot_url: https://stupeter12138.github.io/
           plugin_screenshot_wait: 1000
-          plugin_screenshot_viewport: 1440x900
+          plugin_screenshot_viewport: 800x450
+          plugin_topics: yes
+          plugin_topics_limit: 15
+          plugin_topics_mode: icons
+          plugin_topics_sort: stars
           

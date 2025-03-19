@@ -1,9 +1,11 @@
 name: Metrics
+
 on:
   # Schedule daily updates
   schedule: [{cron: "0 0 * * *"}]
   workflow_dispatch:
   push: {branches: "main"}
+  
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -14,12 +16,14 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          # Options
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: ""
+
           config_display: columns
           config_timezone: Asia/Shanghai
+
           plugin_habits: yes
           plugin_habits_charts_type: classic
           plugin_habits_days: 14
@@ -27,10 +31,13 @@ jobs:
           plugin_habits_from: 200
           plugin_habits_languages_limit: 6
           plugin_habits_languages_threshold: 0%
+
           plugin_introduction: yes
           plugin_introduction_title: yes
+
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
+
           plugin_screenshot: yes
           plugin_screenshot_background: yes
           plugin_screenshot_mode: image

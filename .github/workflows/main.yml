@@ -19,7 +19,7 @@ jobs:
           filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           template: classic
-          
+
           base: header, activity, community, repositories, metadata
 
           config_display: columns
@@ -40,9 +40,9 @@ jobs:
           plugin_isocalendar_duration: half-year
 
           plugin_screenshot: yes
+          plugin_screenshot_title: My Magical Site
           plugin_screenshot_background: yes
           plugin_screenshot_mode: image
           plugin_screenshot_selector: body
-          plugin_screenshot_title: Screenshot
           plugin_screenshot_url: https://stupeter12138.github.io/
           

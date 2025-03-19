@@ -14,9 +14,9 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: stuPETER12138/metrics@master
         with:
-          filename: github-metrics.svg
+          # filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           template: classic
 

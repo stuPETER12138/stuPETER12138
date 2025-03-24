@@ -18,7 +18,7 @@ jobs:
         with:
           filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          template: large
+          template: classic
           base: header, activity, community, repositories, metadata
           config_display: large
           config_timezone: Asia/Shanghai

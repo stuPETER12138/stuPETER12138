@@ -1,9 +1,9 @@
 <div align="center">
-  <h1>🧐A squash merging into every branch of curiosity. </h1>
+  <h1>🧐A squash merging into every branch of magic. </h1>
 </div>
 
-<p align="center"><i>"Be curious. Read widely. Try new things. What people call intelligence just boils down to curiosity."</i></p>
-<p align="center"><i>- Aaron Swartz(2013~1986) -</i></p>
+<p align="center"><i>"Any sufficiently advanced technology is indistinguishable from magic."</i></p>
+<p align="center"><i>- Arthur Charles Clarke(1917 – 2008) -</i></p>
 
 <details>
   <summary>more</summary>

@@ -2,45 +2,23 @@ name: Metrics
 
 on:
   # Schedule daily updates
-  schedule: [{cron: "0 0 * * *"}]
+  schedule: [{ cron: "0 8 * * *" }]
   workflow_dispatch:
-  push: {branches: "main"}
+  push: { branches: "main" }
 
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    environment: 
+    environment:
       name: production
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: actions/checkout@v4
+
+      - uses: czl9707/gh-space-shooter@v1
         with:
-          filename: github-metrics.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          template: classic
-          base: header, activity, community, repositories, metadata
-          config_display: large
-          config_timezone: Asia/Shanghai
-          plugin_activity: yes
-          plugin_activity_days: 14
-          plugin_activity_filter: all
-          plugin_activity_limit: 5
-          plugin_activity_load: 300
-          plugin_activity_visibility: all
-          plugin_habits: yes
-          plugin_habits_charts_type: classic
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_from: 200
-          plugin_habits_languages_limit: 6
-          plugin_habits_languages_threshold: 0%
-          plugin_introduction: yes
-          plugin_introduction_title: yes
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-          plugin_topics: yes
-          plugin_topics_limit: 15
-          plugin_topics_mode: icons
-          plugin_topics_sort: stars
-          
+          github-token: ${{ secrets.PROFILE_TOKEN }}
+          output-path: "game.gif"
+          # write-dataurl-to: 'README.md'   # for dataurl generation.
+          strategy: "random"

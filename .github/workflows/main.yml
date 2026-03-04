@@ -1,13 +1,13 @@
-name: Metrics
+name: GitHub Profile
 
 on:
   # Schedule daily updates
-  schedule: [{ cron: "0 8 * * *" }]
+  schedule: [{ cron: "0 1 * * *" }]
   workflow_dispatch:
   push: { branches: "main" }
 
 jobs:
-  github-metrics:
+  github-profile:
     runs-on: ubuntu-latest
     environment:
       name: production
@@ -15,10 +15,23 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-
       - uses: czl9707/gh-space-shooter@v1
         with:
           github-token: ${{ secrets.PROFILE_TOKEN }}
           output-path: "game.gif"
-          # write-dataurl-to: 'README.md'   # for dataurl generation.
           strategy: "random"
+
+  update-readme-with-blog:
+    name: Update README with latest blog posts
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Pull in mdBear posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://stuPETER12138.github.io/blog/atom.xml"
+          max_post_count: 3

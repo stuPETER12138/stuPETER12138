@@ -22,6 +22,7 @@ jobs:
           strategy: "random"
 
   update-readme-with-blog:
+    needs: github-profile
     name: Update README with latest blog posts
     runs-on: ubuntu-latest
     permissions:

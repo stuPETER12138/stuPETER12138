@@ -4,9 +4,3 @@
 <p align="center"><i>- Arthur Charles Clarke(1917 – 2008) -</i></p>
 
 ![GitHub Apace](game.gif)
-
-🤓 Latest Blog Posts
-<!-- BLOG-POST-LIST:START -->
-- [Post 2](https://stupeter12138.github.io/blog/post-2.html)
-- [Post 1](https://stupeter12138.github.io/blog/post-1.html)
-<!-- BLOG-POST-LIST:END -->

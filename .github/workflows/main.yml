@@ -20,19 +20,3 @@ jobs:
           github-token: ${{ secrets.PROFILE_TOKEN }}
           output-path: "game.gif"
           strategy: "random"
-
-  update-readme-with-blog:
-    needs: github-profile
-    name: Update README with latest blog posts
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Pull in mdBear posts
-        uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          feed_list: "https://stuPETER12138.github.io/blog/atom.xml"
-          max_post_count: 3
